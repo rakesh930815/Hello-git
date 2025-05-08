@@ -1,0 +1,27 @@
+Round 1
+1. git init (create a new local repository(one time))
+2. git config --global user.name "rakesh930815"
+git config --global user.email "rakesh.cbspl@gmail.com" (provide user info to git repo.(one time)
+3. Adding files/folders to staging/indexing
+git status
+git add -A (add all files and folder at stagging)
+git add filename
+git add *.java
+git add foldername 
+
+4. commit the code into local(git) repository
+git commit -m "first commit"
+5. connect local repository with remote rep.(one time)
+git remote add origin "https://github.com/rakesh930815/Hello-git.git"
+6. push the code into remote repository
+git push origin master
+7. generate token to push code on git hub
+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
+
+Round 2
+git add -A
+git commit -m "2nd changes"
+git push origin master
+
+Round 3
+git pull https://github.com/rakesh930815/Hello-git.git  (get changes from remote repo.)
